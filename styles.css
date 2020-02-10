@@ -97,7 +97,7 @@ html,body{
     z-index: 7;
     color: black;
 }
-#about a{
+#about li{
     text-align: center;
     margin-top: 3px;
     position: relative;
