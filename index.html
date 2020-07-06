@@ -6,37 +6,226 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="background">
-        <div class="overlay">
-            <div class= "nav">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contacts">Contacts</a>
+      <section id="home">
+        <div class="overlay2">
+          <div class="intro " style="background:url('/static/images/coffee.jpg'); height: 100vh; background-size: cover; background-position: center;">
+            <nav class=" top-nav" >
+              <ul class="nav nav-list">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Applications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="landing-text pt-5">
+              <div class="container">
+                <div class="row pt-5">
+                  <div class="col-md-12 text-center">
+                    <img src="images/face-icon.png" alt="girl-image">
+                    <h1 class="">DOLPHINE ATIENO</h1>
+                    <h5 class="pb-3 font-weight-bold">Fullstack Developer</h5>
+                </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <div id="home">
-            <img src="original.jpg" alt="girl-image">
-            <div class="title">
-                <h1>DOLPHINE ATIENO</h1>
-                    <p>Junior Front End Developer</p>
-            </div>
-            <div class="brief">
-                     <p>Since I started coding I have become obsessed with it. I have always been curious on how different websites are created.<br> Hence I count myself lucky to be among the coding family. </p>
-            </div>
-        </div>
-    </div>
+          </div>
+      </div>
+    </section>
     <div id="about">
-        <h1>About</h1>
-        <p>My school level is upto form four.<br> I have also managed to do a bit of short certificate course like web design. I have a job experience on machine learning.<br> This I did for a period of six months. <br> I love drawing, reading and laughing. Growing up in slums I have always believed that no matter where you grew up, it is almost certain that, in some way, the community of friends and family around you contributed positively to your formative years. <br> This is why it is so important to return these favors, and to give back to those around, even in small ways.<br> By learning coding am sure that I will be able to come up with beautiful ideas that will change my community.<br> Below is a link of the few websites have managed to design since I joined Moringa School:</p>
-        <ul>
-            <li> https://atienodolphine01.github.io/Pets/</li>
-            <li> https://atienodolphine01.github.io/Construction/</li>
-            <lI> https://opanga77.github.io/Job/</lI>
-            <li> https://atienodolphine01.github.io/About/</li>
-        </ul>
+        <section class="about mt-5 pt-5" id="about">
+            <div class="section-heading text-center">
+                <h1>Know more</h1>
+                <h6>About me</h6>
+            </div>
+            <div class="about-details">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-center "><small class="" style="opacity:0.5;">~ Profession</small></h6>
+                                <p class="">
+                                    Web designing is interesting and so am very passionate am about it. Ones I begin the design process, that is from coming up with problem statements and ideas until finalising the product, am always eager to learn new things face and face new problems.
+                                    <br>
+                                    This inturn makes me collaborate,do a lot of research and learn from my fellow developers.
+                                 </p>
+                                 <br>
+                                 <h6 class="text-center "><small style="opacity:0.5;">~ When am not Coding</small></h6>
+                                 <p class="">I love reading documentaries and watching movies. I enjoy watching comedies too.
+                                 </p>
+                                 <br>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <h6 class="ml-5 mt-2"><small class="" style="opacity:0.5;">~Skills</small></h6>
+                                <ul>
+                                <li class="python"><strong>Python</strong><img class="pyicon ml-1" src="images/py.png" alt="" width="20%"></li>
+                                <li class="ftext"><strong>Flask</strong><img class="flask ml-1" src="images/flasklogo.png" alt="" width="18%"></li>
+                                <li class="django"><strong>Django</strong><img class="djangoicon" src="images/django.png" alt="" width="20%"></li>
+                                <li class="js"><strong>Javascript</strong><img class="jsicon" src="images/jjs.png" alt="" width="20%"></li>
+                                <li class="bootstrap"><strong>Bootstrap</strong><img class="booticon" src="images/boot1.png" alt="" width="20%"></li>
+                                <li class="css"><strong>CSS3</strong><img class="cssicon" src="images/css.png" alt="" width="20%"></li>
+                                <li class="html"><strong>HTML5</strong><img class="htmlicon" src="images/html.png" alt="" width="20%"></li>
+                                <li class="angular"><strong>Angular</strong><img class="angularicon ml-1" src="images/angular1.png" alt="" width="20%"></li>
+                                
+                                </ul>
+                            <!-- <img src="{% static 'images/mio.jpg' %}" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="portfolio mt-5 pt-3 mb-5 pb-5" id="portfolio">
+            <div class="container">
+              <div class="section-heading text-center mt-5 mr-5">
+                <h1>Portfolio</h1>
+              </div>
+              <div class="portfolio-item">
+                <div class="container-fluid bg-transparent">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="portfolio-img content">
+                        <!-- Card -->
+                          <div class="">
+                            <div class="card pb-1">
+                              <div class="view overlay">
+                                <img src="images/review.jpg" class="card-img-top img-thumbnail" width="100%" height="20%">
+                              </div>
+                              <!-- Card content -->
+                              <div class="">
+                              <!-- Title -->
+                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Studentsprojects</h6>
+                              <!-- Text -->
+                                <p class="card-text text-dark ml-3"><small>This app allows one to post his/her project and get reviews from other users.</small></p>
+                              <!-- Button -->
+                                <a href="https://studeproject.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                                <a href="https://github.com/Atienodolphine01/Studentsprojects" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5 ">Details</a>
+    
+                              </div>
+                            </div>
+    
+                          </div>
+                        <!-- Card -->
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="portfolio-img content">
+                        <!-- Card -->
+                          <div class="">
+                            <div class="card">
+                              <div class="view overlay">
+                                <img src="images/pizza.jpg" class="card-img-top img-thumbnail" width="100%">
+                              </div>
+                              <!-- Card content -->
+                              <div class="">
+                              <!-- Title -->
+                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Pizza Palace</h6>
+                              <!-- Text -->
+                                <p class="card-text text-dark ml-3"><small>Pizza Palace is an app that allows users to order any amount and flavor of pizza that they like. They may also choose to pick the pizza themselves or ask for delivery.</small></p>
+                              <!-- Button -->
+                                <a href="https://atienodolphine01.github.io/Pizza-palace/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                                <a href="https://github.com/Atienodolphine01/Pizza-palace" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+    
+                              </div>
+                            </div>
+    
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="portfolio-img content">
+                        <!-- Card -->
+                          <div class="">
+                            <div class="card">
+                              <div class="view overlay">
+                                <img src="images/explore.jpeg" class="card-img-top img-thumbnail" width="100%">
+                              </div>
+                              <!-- Card content -->
+                              <div class="">
+                              <!-- Title -->
+                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Git-Explore</h6>
+                              <!-- Text -->
+                                <p class="card-text text-dark ml-3"><small>This website allows users to search to search for github users and their repositories.</small></p>
+                              <!-- Button -->
+                                <a href="https://atienodolphine01.github.io/Git-Explore/usersprofile" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                                <a href="https://github.com/Atienodolphine01/Git-Explore" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+    
+                              </div>
+                            </div>
+    
+                          </div>
+                        <!-- Card -->
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </section>
+          <section class="contact mt-5 pt-5" id="contact">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h1>Contact</h1>
+                <h6>For further details feel free to contact me;</h6>
+                <p class="">Email: <small>awuordolphine65@gmail.com</small></p>
+                <div class="text mr-5 pr-5 ">
+                  <a  href="Dolphine Atieno Curriculum Vitae.pdf'%}"  download="DolphineAtieno Curriculum Vitae.pdf"><small class="text-white"><button class="btn btn-info btn-md ml-4 " type="button" name="button">Download CV <i class="far fa-file-pdf fa-1x text-white"></i></button></small></a>
+    
+                </div>
+                <ul class="nav-list">
+                  <li>
+                    <a href="" class="icon-link">
+                      <i class="fab fa-linkedin-square fa-2x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Atienodolphine01" class="icon-link">
+                      <i class="fab fa-github-square fa-2x"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a class="cont" href="#home">&#8648;</a>
+              </div>
+            </div>
+          </section>
+        </div>
     </div>
+    
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
 </body>
 </html>
